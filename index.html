@@ -9,6 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <title>ARENA MULTIMEDIA</title>
 </head>
 <body>
@@ -44,10 +46,13 @@
   <p>Arena Multimedia là thương hiệu đào tạo Chuyên gia Mỹ thuật Đa phương tiện số 1 tại châu Á, là một trong các <br>
     sản phẩm đào tạo của tập đoàn APTECH – nhà cung cấp dịch vụ đào tạo Công nghệ thông tin hàng đầu thế giới cấp chứng chỉ quốc tế. <br>
     Với hơn 25 năm kinh nghiệm. Arena Multimedia đã xây dựng hệ thống hàng trăm trung tâm đào tạo với hơn 450.000 sinh viên đang theo học trên 20 quốc gia.</p>
-  <div class="row" data-aos="zoom-in-up">
+  <div class="row autoplay" data-aos="zoom-in-up">
     <div class="w-30 shadow"> <img src="images/4,.webp" class="img-100 h-230"> </div>
     <div class="w-30 shadow"> <img src="images/2,.webp" class="img-100 h-230"> </div>
     <div class="w-30 shadow"> <img src="images/3,.webp" class="img-100 h-230"> </div>
+	<div class="w-30 shadow"> <img src="images/a1.png" class="img-100 h-230"> </div>
+	<div class="w-30 shadow"> <img src="images/a4.jpg" class="img-100 h-230"> </div>
+	<div class="w-30 shadow"> <img src="images/a6.webp" class="img-100 h-230"> </div>
   </div>
 </section>
 	
@@ -145,13 +150,20 @@
 	<textarea class="contact-form-text" placeholder="Lời Nhắn"></textarea>
 	<input type="Gửi" class="contact-form-btn" value="Gửi"></div>
 </section>
-<!--FOOTER-->
-<footer>
-
-</footer>
- 
 	
-<!--HET FOOTER-->
+	
+<!--JAVA-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+	$('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1500,
+});
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
   AOS.init();
